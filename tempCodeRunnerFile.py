@@ -1,9 +1,8 @@
-
-#     def __init__(self,l,b):
-#         self.l = l
-#         self.b = b
-
-#     def print(self):
-#         print
-# p = rect(3,4)
-# print(p.l*p.b)
+n = int(input("enter total no of number to print fibonacci series :  "))
+a,b=0,1
+print(a,b)
+for i in range(2,n):
+    c = a+b
+    print(c,end=" ")
+    a=b
+    b=c
